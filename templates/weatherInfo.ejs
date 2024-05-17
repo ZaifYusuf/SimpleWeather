@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Info</title>
+    <style>
+        #weatherInfo{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="weatherInfo">
+        <img src= "<%- image %>" alt="Weather Icon">
+        <p>Temperature: <%- temperature %>°F</p>
+        <p>Feels Like: <%- feels %></p>
+        <p>UV Index: <%- uv %></p>
+    </div>
+</body>
+</html>

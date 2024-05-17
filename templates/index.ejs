@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Weather App</title>
+
+    <style>
+        html{
+            font-size: 14px;
+        }
+
+        #title{
+            text-align: center;
+            font-size: 6rem;
+            font-style: italic;
+            color: white;
+        }
+
+        body{
+            background-image: url('background.jpg');
+            background-size: cover;
+        }
+
+        #signin{
+            margin-top: 10rem;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: aliceblue;
+            border: double lightsalmon 10px;
+            height: 18rem;
+            width: 25%;
+            border-radius: 10px;
+        }
+        legend{
+            font-size: 4rem;
+            text-align: center;
+        }
+
+        fieldset{
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        input[type="text"]{
+            height: 2rem;
+        }
+
+        form{
+            text-align: center;
+        }
+
+        button{
+            height: 3rem;
+            width: 80%;
+            font-size: 2rem;
+            background-color: antiquewhite;
+            border-radius: 10px;
+        }
+        button:hover{
+            width: 75%;
+            height: 2.8rem;
+        }
+    </style>
+
+
+</head>
+<body>
+    <h1 id="title">Welcome to Simple Weather App!</h1>
+    <div id="signin">
+        <form method="post">
+            <fieldset>
+                <legend><strong>Sign in</strong></legend>
+                <label for="firstName">First Name</label><br>
+                <input type="text" name="firstName" size="40">
+            </fieldset>
+            <br><br>
+            <button>Sign In</button>
+        </form>
+    </div>
+</body>
+</html>

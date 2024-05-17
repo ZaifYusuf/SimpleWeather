@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Current Weather</title>
+
+    <style>
+        h1{
+            text-align: center;
+            font-size: 5rem;
+            font-style: italic;
+        }
+
+        h2{
+            text-align: center;
+
+        }
+        form{
+            text-align: center;
+        }
+
+        body{
+            background-image: url('background2.jpeg');
+            background-size: cover;
+        }
+
+        #formData{
+            margin-top: 7rem;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: aliceblue;
+            border: double lightsalmon 10px;
+            height: 18rem;
+            width: 25%;
+            border-radius: 10px;
+        }
+
+        button{
+            height: 3rem;
+            width: 80%;
+            font-size: 2rem;
+            background-color: antiquewhite;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Get Current Weather</h1>
+    <div id="formData">
+        <h2>Please type lat and lon of location</h2>
+        <form method="post">
+            Enter Latitude: <br>
+            <input type="text" name="lat" id="lat"><br><br>
+            Enter Longitude: <br>
+            <input type="text" name="lon" id="lon"><br><br><br>
+            <button>Get Weather!</button>
+        </form>
+    </div>
+    <br><br>
+</body>
+</html>

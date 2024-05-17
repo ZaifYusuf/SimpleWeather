@@ -1,0 +1,20 @@
+{
+  "name": "simpleweatherapp",
+  "version": "1.0.0",
+  "description": "A simple Weather App",
+  "main": "simpleWeather.js",
+  "scripts": {
+    "start": "node simpleWeather.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zaif Yusuf",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mongodb": "^6.6.2",
+    "node-fetch": "^3.3.2",
+    "path": "^0.12.7"
+  }
+}
